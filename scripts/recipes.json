@@ -1,0 +1,1037 @@
+[
+ {
+  "slug": "overnight-aveia-banana",
+  "name": "Overnight de aveia, banana e iogurte",
+  "summary": "Aveia hidratada no iogurte durante a noite. Pronta ao acordar.",
+  "meal_types": [
+   "breakfast"
+  ],
+  "prep": 5,
+  "servings": 1,
+  "cost": 1,
+  "tags": [
+   "vegetariano",
+   "sem-ovo",
+   "sem-peixe",
+   "sem-castanhas",
+   "sem-soja"
+  ],
+  "goals": [
+   "maintain",
+   "gain",
+   "lose"
+  ],
+  "ing": [
+   [
+    "7",
+    40,
+    "4 colheres de sopa"
+   ],
+   [
+    "448",
+    170,
+    "1 pote"
+   ],
+   [
+    "182",
+    80,
+    "1 banana pequena"
+   ],
+   [
+    "507",
+    10,
+    "1 colher de chá"
+   ]
+  ],
+  "steps": [
+   "Misture a aveia e o iogurte em um pote com tampa.",
+   "Fatie a banana por cima e regue com o mel.",
+   "Tampe e leve à geladeira por pelo menos 6 horas."
+  ]
+ },
+ {
+  "slug": "omelete-espinafre-minas",
+  "name": "Omelete de espinafre e queijo minas",
+  "summary": "Proteína rápida, frigideira única.",
+  "meal_types": [
+   "breakfast",
+   "dinner"
+  ],
+  "prep": 12,
+  "servings": 1,
+  "cost": 1,
+  "tags": [
+   "vegetariano",
+   "sem-gluten",
+   "sem-peixe",
+   "sem-castanhas",
+   "sem-soja",
+   "alto-proteina"
+  ],
+  "goals": [
+   "lose",
+   "maintain",
+   "gain"
+  ],
+  "ing": [
+   [
+    "489",
+    100,
+    "2 ovos"
+   ],
+   [
+    "119",
+    30,
+    "1 xícara de folhas"
+   ],
+   [
+    "461",
+    30,
+    "1 fatia"
+   ],
+   [
+    "157",
+    50,
+    "½ tomate"
+   ],
+   [
+    "260",
+    5,
+    "1 colher de chá"
+   ]
+  ],
+  "steps": [
+   "Bata os ovos com uma pitada de sal.",
+   "Aqueça o azeite e murche o espinafre por 1 minuto.",
+   "Despeje os ovos, distribua o queijo e o tomate picado.",
+   "Tampe em fogo baixo até firmar e dobre ao meio."
+  ]
+ },
+ {
+  "slug": "pao-integral-ricota-tomate",
+  "name": "Pão integral com ricota e tomate",
+  "summary": "Café da manhã leve e salgado.",
+  "meal_types": [
+   "breakfast",
+   "afternoon_snack"
+  ],
+  "prep": 5,
+  "servings": 1,
+  "cost": 1,
+  "tags": [
+   "vegetariano",
+   "sem-ovo",
+   "sem-peixe",
+   "sem-castanhas",
+   "sem-soja"
+  ],
+  "goals": [
+   "lose",
+   "maintain"
+  ],
+  "ing": [
+   [
+    "52",
+    50,
+    "2 fatias"
+   ],
+   [
+    "469",
+    40,
+    "2 colheres de sopa"
+   ],
+   [
+    "157",
+    40,
+    "4 rodelas"
+   ],
+   [
+    "260",
+    3,
+    "um fio"
+   ]
+  ],
+  "steps": [
+   "Toste o pão, se preferir.",
+   "Espalhe a ricota, cubra com o tomate e finalize com azeite, sal e orégano."
+  ]
+ },
+ {
+  "slug": "frango-arroz-feijao-brocolis",
+  "name": "Frango grelhado, arroz integral, feijão e brócolis",
+  "summary": "O prato brasileiro clássico, equilibrado.",
+  "meal_types": [
+   "lunch",
+   "dinner"
+  ],
+  "prep": 30,
+  "servings": 1,
+  "cost": 2,
+  "tags": [
+   "sem-lactose",
+   "sem-gluten",
+   "sem-ovo",
+   "sem-peixe",
+   "sem-castanhas",
+   "sem-soja",
+   "alto-proteina"
+  ],
+  "goals": [
+   "lose",
+   "maintain",
+   "gain"
+  ],
+  "ing": [
+   [
+    "410",
+    120,
+    "1 filé médio"
+   ],
+   [
+    "1",
+    120,
+    "4 colheres de sopa"
+   ],
+   [
+    "561",
+    100,
+    "1 concha pequena"
+   ],
+   [
+    "100",
+    80,
+    "1 xícara"
+   ],
+   [
+    "260",
+    5,
+    "1 colher de chá"
+   ]
+  ],
+  "steps": [
+   "Tempere o peito de frango com sal, alho e limão e grelhe 5 a 6 minutos de cada lado.",
+   "Cozinhe o brócolis no vapor por 4 minutos.",
+   "Monte o prato com arroz, feijão, frango e brócolis; finalize com o azeite."
+  ]
+ },
+ {
+  "slug": "patinho-batata-doce-salada",
+  "name": "Patinho grelhado com batata-doce e salada",
+  "summary": "Carboidrato de digestão lenta e carne magra.",
+  "meal_types": [
+   "lunch",
+   "dinner"
+  ],
+  "prep": 35,
+  "servings": 1,
+  "cost": 2,
+  "tags": [
+   "sem-lactose",
+   "sem-gluten",
+   "sem-ovo",
+   "sem-peixe",
+   "sem-castanhas",
+   "sem-soja",
+   "alto-proteina"
+  ],
+  "goals": [
+   "maintain",
+   "gain",
+   "lose"
+  ],
+  "ing": [
+   [
+    "377",
+    120,
+    "1 bife"
+   ],
+   [
+    "88",
+    150,
+    "1 batata média"
+   ],
+   [
+    "78",
+    40,
+    "4 folhas"
+   ],
+   [
+    "157",
+    60,
+    "½ tomate grande"
+   ],
+   [
+    "260",
+    5,
+    "1 colher de chá"
+   ]
+  ],
+  "steps": [
+   "Cozinhe a batata-doce com casca até ficar macia (cerca de 25 minutos).",
+   "Grelhe o patinho em frigideira bem quente.",
+   "Sirva com alface e tomate temperados com azeite e limão."
+  ]
+ },
+ {
+  "slug": "salmao-abobora-brocolis",
+  "name": "Salmão grelhado com abóbora e brócolis",
+  "summary": "Gordura de boa qualidade e legumes assados.",
+  "meal_types": [
+   "lunch",
+   "dinner"
+  ],
+  "prep": 30,
+  "servings": 1,
+  "cost": 3,
+  "tags": [
+   "sem-lactose",
+   "sem-gluten",
+   "sem-ovo",
+   "sem-castanhas",
+   "sem-soja",
+   "alto-proteina"
+  ],
+  "goals": [
+   "maintain",
+   "lose",
+   "gain"
+  ],
+  "ing": [
+   [
+    "317",
+    120,
+    "1 posta"
+   ],
+   [
+    "64",
+    150,
+    "1 xícara em cubos"
+   ],
+   [
+    "100",
+    80,
+    "1 xícara"
+   ]
+  ],
+  "steps": [
+   "Cozinhe a abóbora em cubos até ficar macia.",
+   "Grelhe o salmão temperado com sal e limão, 4 minutos de cada lado.",
+   "Cozinhe o brócolis no vapor e sirva tudo junto."
+  ]
+ },
+ {
+  "slug": "merluza-arroz-legumes",
+  "name": "Merluza assada com arroz e legumes",
+  "summary": "Peixe branco, leve e econômico.",
+  "meal_types": [
+   "lunch",
+   "dinner"
+  ],
+  "prep": 30,
+  "servings": 1,
+  "cost": 2,
+  "tags": [
+   "sem-lactose",
+   "sem-gluten",
+   "sem-ovo",
+   "sem-castanhas",
+   "sem-soja",
+   "alto-proteina"
+  ],
+  "goals": [
+   "lose",
+   "maintain"
+  ],
+  "ing": [
+   [
+    "301",
+    140,
+    "1 filé grande"
+   ],
+   [
+    "3",
+    120,
+    "4 colheres de sopa"
+   ],
+   [
+    "109",
+    60,
+    "½ cenoura"
+   ],
+   [
+    "112",
+    60,
+    "½ chuchu"
+   ],
+   [
+    "260",
+    5,
+    "1 colher de chá"
+   ]
+  ],
+  "steps": [
+   "Asse a merluza temperada a 200 °C por 15 a 18 minutos.",
+   "Cozinhe cenoura e chuchu em cubos.",
+   "Sirva com o arroz e regue com azeite."
+  ]
+ },
+ {
+  "slug": "lentilha-arroz-cebola",
+  "name": "Lentilha com arroz e cebola dourada",
+  "summary": "Versão simples da mujadara. 100% vegetal.",
+  "meal_types": [
+   "lunch",
+   "dinner"
+  ],
+  "prep": 35,
+  "servings": 1,
+  "cost": 1,
+  "tags": [
+   "vegano",
+   "vegetariano",
+   "sem-lactose",
+   "sem-gluten",
+   "sem-ovo",
+   "sem-peixe",
+   "sem-castanhas",
+   "sem-soja"
+  ],
+  "goals": [
+   "maintain",
+   "gain",
+   "lose"
+  ],
+  "ing": [
+   [
+    "577",
+    150,
+    "¾ de xícara"
+   ],
+   [
+    "1",
+    100,
+    "3 colheres de sopa"
+   ],
+   [
+    "107",
+    50,
+    "½ cebola"
+   ],
+   [
+    "260",
+    10,
+    "1 colher de sopa"
+   ]
+  ],
+  "steps": [
+   "Doure a cebola fatiada no azeite em fogo médio-baixo por 12 minutos.",
+   "Misture a lentilha e o arroz já cozidos.",
+   "Cubra com a cebola dourada e ajuste o sal."
+  ]
+ },
+ {
+  "slug": "tofu-legumes-arroz",
+  "name": "Tofu salteado com legumes e arroz integral",
+  "summary": "Proteína vegetal em 15 minutos.",
+  "meal_types": [
+   "lunch",
+   "dinner"
+  ],
+  "prep": 15,
+  "servings": 1,
+  "cost": 2,
+  "tags": [
+   "vegano",
+   "vegetariano",
+   "sem-lactose",
+   "sem-gluten",
+   "sem-ovo",
+   "sem-peixe",
+   "sem-castanhas"
+  ],
+  "goals": [
+   "lose",
+   "maintain"
+  ],
+  "ing": [
+   [
+    "584",
+    150,
+    "½ bloco"
+   ],
+   [
+    "100",
+    80,
+    "1 xícara"
+   ],
+   [
+    "110",
+    50,
+    "½ cenoura"
+   ],
+   [
+    "145",
+    50,
+    "½ pimentão"
+   ],
+   [
+    "272",
+    5,
+    "1 colher de chá"
+   ],
+   [
+    "1",
+    100,
+    "3 colheres de sopa"
+   ]
+  ],
+  "steps": [
+   "Seque o tofu, corte em cubos e doure no óleo.",
+   "Junte cenoura e pimentão em tiras e salteie 3 minutos.",
+   "Adicione o brócolis já cozido e sirva sobre o arroz."
+  ]
+ },
+ {
+  "slug": "sardinha-mandioca-salada",
+  "name": "Sardinha assada com mandioca e salada",
+  "summary": "Ômega-3 com custo baixo.",
+  "meal_types": [
+   "lunch",
+   "dinner"
+  ],
+  "prep": 40,
+  "servings": 1,
+  "cost": 1,
+  "tags": [
+   "sem-lactose",
+   "sem-gluten",
+   "sem-ovo",
+   "sem-castanhas",
+   "sem-soja",
+   "alto-proteina"
+  ],
+  "goals": [
+   "maintain",
+   "gain"
+  ],
+  "ing": [
+   [
+    "318",
+    100,
+    "3 sardinhas"
+   ],
+   [
+    "129",
+    120,
+    "2 pedaços"
+   ],
+   [
+    "157",
+    60,
+    "½ tomate"
+   ],
+   [
+    "107",
+    20,
+    "rodelas"
+   ],
+   [
+    "142",
+    50,
+    "½ pepino"
+   ]
+  ],
+  "steps": [
+   "Asse as sardinhas temperadas a 220 °C por 20 minutos.",
+   "Cozinhe a mandioca até ficar macia.",
+   "Sirva com salada de tomate, cebola e pepino."
+  ]
+ },
+ {
+  "slug": "iogurte-morango-aveia",
+  "name": "Iogurte com morango e aveia",
+  "summary": "Lanche frio, pronto em 2 minutos.",
+  "meal_types": [
+   "morning_snack",
+   "afternoon_snack",
+   "supper"
+  ],
+  "prep": 2,
+  "servings": 1,
+  "cost": 1,
+  "tags": [
+   "vegetariano",
+   "sem-ovo",
+   "sem-peixe",
+   "sem-castanhas",
+   "sem-soja"
+  ],
+  "goals": [
+   "lose",
+   "maintain",
+   "gain"
+  ],
+  "ing": [
+   [
+    "449",
+    170,
+    "1 pote"
+   ],
+   [
+    "239",
+    100,
+    "7 morangos"
+   ],
+   [
+    "7",
+    15,
+    "1 colher de sopa"
+   ]
+  ],
+  "steps": [
+   "Coloque o iogurte em uma tigela, cubra com os morangos picados e a aveia."
+  ]
+ },
+ {
+  "slug": "maca-castanha",
+  "name": "Maçã com castanha-do-pará",
+  "summary": "Lanche portátil, sem preparo.",
+  "meal_types": [
+   "morning_snack",
+   "afternoon_snack"
+  ],
+  "prep": 1,
+  "servings": 1,
+  "cost": 1,
+  "tags": [
+   "vegano",
+   "vegetariano",
+   "sem-lactose",
+   "sem-gluten",
+   "sem-ovo",
+   "sem-peixe",
+   "sem-soja"
+  ],
+  "goals": [
+   "lose",
+   "maintain",
+   "gain"
+  ],
+  "ing": [
+   [
+    "222",
+    130,
+    "1 maçã média"
+   ],
+   [
+    "589",
+    10,
+    "2 unidades"
+   ]
+  ],
+  "steps": [
+   "Lave a maçã. Sirva com as castanhas."
+  ]
+ },
+ {
+  "slug": "sanduiche-atum",
+  "name": "Sanduíche integral de atum",
+  "summary": "Lanche substancioso para levar.",
+  "meal_types": [
+   "afternoon_snack",
+   "dinner"
+  ],
+  "prep": 7,
+  "servings": 1,
+  "cost": 2,
+  "tags": [
+   "sem-ovo",
+   "sem-castanhas",
+   "sem-soja",
+   "alto-proteina"
+  ],
+  "goals": [
+   "maintain",
+   "gain",
+   "lose"
+  ],
+  "ing": [
+   [
+    "52",
+    50,
+    "2 fatias"
+   ],
+   [
+    "277",
+    60,
+    "½ lata, drenado"
+   ],
+   [
+    "468",
+    15,
+    "1 colher de sopa"
+   ],
+   [
+    "78",
+    15,
+    "2 folhas"
+   ],
+   [
+    "157",
+    30,
+    "3 rodelas"
+   ]
+  ],
+  "steps": [
+   "Misture o atum com o requeijão.",
+   "Monte o sanduíche com alface e tomate."
+  ]
+ },
+ {
+  "slug": "cuscuz-ovo",
+  "name": "Cuscuz de milho com ovo e azeite",
+  "summary": "Nordeste no café da manhã.",
+  "meal_types": [
+   "breakfast",
+   "dinner"
+  ],
+  "prep": 15,
+  "servings": 1,
+  "cost": 1,
+  "tags": [
+   "vegetariano",
+   "sem-lactose",
+   "sem-gluten",
+   "sem-peixe",
+   "sem-castanhas",
+   "sem-soja"
+  ],
+  "goals": [
+   "maintain",
+   "gain"
+  ],
+  "ing": [
+   [
+    "533",
+    150,
+    "1 fatia grossa"
+   ],
+   [
+    "488",
+    50,
+    "1 ovo"
+   ],
+   [
+    "260",
+    5,
+    "1 colher de chá"
+   ]
+  ],
+  "steps": [
+   "Prepare o cuscuz na cuscuzeira conforme a embalagem.",
+   "Cozinhe o ovo por 10 minutos.",
+   "Sirva o cuscuz regado com azeite e o ovo fatiado."
+  ]
+ },
+ {
+  "slug": "vitamina-banana-aveia",
+  "name": "Vitamina de banana com aveia",
+  "summary": "Bebida rápida antes ou depois do treino.",
+  "meal_types": [
+   "breakfast",
+   "afternoon_snack"
+  ],
+  "prep": 3,
+  "servings": 1,
+  "cost": 1,
+  "tags": [
+   "vegetariano",
+   "sem-ovo",
+   "sem-peixe",
+   "sem-castanhas",
+   "sem-soja"
+  ],
+  "goals": [
+   "gain",
+   "maintain"
+  ],
+  "ing": [
+   [
+    "459",
+    26,
+    "2 colheres de sopa (leite em pó) + 200 ml de água"
+   ],
+   [
+    "179",
+    90,
+    "1 banana"
+   ],
+   [
+    "7",
+    20,
+    "2 colheres de sopa"
+   ]
+  ],
+  "steps": [
+   "Dissolva o leite em pó em 200 ml de água gelada.",
+   "Bata com a banana e a aveia por 30 segundos e sirva."
+  ],
+  "basis": "Leite integral em pó reconstituído: a TACO 4ª ed. marca o leite fluido como amostra em reavaliação (sem valores), por isso usamos o pó. Água sem valor energético."
+ },
+ {
+  "slug": "mamao-linhaca",
+  "name": "Mamão com linhaça",
+  "summary": "Ceia leve, rica em fibras.",
+  "meal_types": [
+   "supper",
+   "morning_snack"
+  ],
+  "prep": 2,
+  "servings": 1,
+  "cost": 1,
+  "tags": [
+   "vegano",
+   "vegetariano",
+   "sem-lactose",
+   "sem-gluten",
+   "sem-ovo",
+   "sem-peixe",
+   "sem-castanhas",
+   "sem-soja"
+  ],
+  "goals": [
+   "lose",
+   "maintain"
+  ],
+  "ing": [
+   [
+    "226",
+    150,
+    "½ mamão papaia"
+   ],
+   [
+    "594",
+    10,
+    "1 colher de sopa"
+   ]
+  ],
+  "steps": [
+   "Corte o mamão, retire as sementes e polvilhe a linhaça."
+  ]
+ },
+ {
+  "slug": "sopa-legumes-frango",
+  "name": "Sopa de legumes com frango",
+  "summary": "Jantar quente e saciante.",
+  "meal_types": [
+   "dinner",
+   "supper"
+  ],
+  "prep": 35,
+  "servings": 1,
+  "cost": 1,
+  "tags": [
+   "sem-lactose",
+   "sem-gluten",
+   "sem-ovo",
+   "sem-peixe",
+   "sem-castanhas",
+   "sem-soja"
+  ],
+  "goals": [
+   "lose",
+   "maintain"
+  ],
+  "ing": [
+   [
+    "408",
+    80,
+    "½ filé desfiado"
+   ],
+   [
+    "91",
+    100,
+    "1 batata pequena"
+   ],
+   [
+    "109",
+    60,
+    "½ cenoura"
+   ],
+   [
+    "70",
+    80,
+    "½ abobrinha"
+   ],
+   [
+    "112",
+    60,
+    "½ chuchu"
+   ],
+   [
+    "107",
+    20,
+    "2 colheres de sopa"
+   ],
+   [
+    "260",
+    5,
+    "1 colher de chá"
+   ]
+  ],
+  "steps": [
+   "Refogue a cebola no azeite.",
+   "Junte os legumes em cubos e cubra com água; cozinhe 20 minutos.",
+   "Adicione o frango cozido e desfiado e ajuste o sal."
+  ]
+ },
+ {
+  "slug": "macarrao-bolonhesa",
+  "name": "Macarrão à bolonhesa",
+  "summary": "Clássico de domingo, porção controlada.",
+  "meal_types": [
+   "lunch",
+   "dinner"
+  ],
+  "prep": 30,
+  "servings": 1,
+  "cost": 2,
+  "basis": "Macarrão pesado CRU (80 g secos ≈ 1 prato após o cozimento). Carne pesada já cozida.",
+  "tags": [
+   "sem-ovo",
+   "sem-peixe",
+   "sem-castanhas",
+   "sem-soja",
+   "alto-proteina"
+  ],
+  "goals": [
+   "maintain",
+   "gain"
+  ],
+  "ing": [
+   [
+    "40",
+    80,
+    "80 g secos"
+   ],
+   [
+    "326",
+    80,
+    "4 colheres de sopa"
+   ],
+   [
+    "159",
+    100,
+    "½ xícara"
+   ],
+   [
+    "464",
+    10,
+    "1 colher de sopa ralado"
+   ]
+  ],
+  "steps": [
+   "Cozinhe o macarrão em água fervente com sal até ficar al dente.",
+   "Aqueça a carne moída já cozida com o molho de tomate.",
+   "Misture ao macarrão e finalize com o parmesão."
+  ]
+ },
+ {
+  "slug": "pao-frances-ovo-tomate",
+  "name": "Pão francês com ovo e tomate",
+  "summary": "Clássico da padaria, sem lactose.",
+  "meal_types": [
+   "breakfast",
+   "afternoon_snack"
+  ],
+  "prep": 10,
+  "servings": 1,
+  "cost": 1,
+  "tags": [
+   "vegetariano",
+   "sem-lactose",
+   "sem-peixe",
+   "sem-castanhas",
+   "sem-soja"
+  ],
+  "goals": [
+   "maintain",
+   "gain",
+   "lose"
+  ],
+  "ing": [
+   [
+    "53",
+    50,
+    "1 pão"
+   ],
+   [
+    "488",
+    50,
+    "1 ovo"
+   ],
+   [
+    "157",
+    40,
+    "4 rodelas"
+   ],
+   [
+    "260",
+    3,
+    "um fio"
+   ]
+  ],
+  "steps": [
+   "Cozinhe o ovo por 10 minutos e fatie.",
+   "Abra o pão, regue com azeite e monte com ovo e tomate."
+  ]
+ },
+ {
+  "slug": "frutas-aveia",
+  "name": "Tigela de frutas com aveia",
+  "summary": "Fresca, vegana e sem preparo.",
+  "meal_types": [
+   "breakfast",
+   "morning_snack",
+   "afternoon_snack"
+  ],
+  "prep": 5,
+  "servings": 1,
+  "cost": 1,
+  "tags": [
+   "vegano",
+   "vegetariano",
+   "sem-lactose",
+   "sem-ovo",
+   "sem-peixe",
+   "sem-castanhas",
+   "sem-soja"
+  ],
+  "goals": [
+   "lose",
+   "maintain",
+   "gain"
+  ],
+  "ing": [
+   [
+    "182",
+    80,
+    "1 banana pequena"
+   ],
+   [
+    "226",
+    150,
+    "½ mamão papaia"
+   ],
+   [
+    "7",
+    20,
+    "2 colheres de sopa"
+   ]
+  ],
+  "steps": [
+   "Corte as frutas em cubos.",
+   "Cubra com a aveia e sirva."
+  ]
+ }
+]

@@ -1,0 +1,1 @@
+-- Dados de referência (TACO e receitas) são carregados pelas migrations. Nada adicional aqui.
