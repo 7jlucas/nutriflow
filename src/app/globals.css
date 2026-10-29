@@ -1,0 +1,297 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   NUTRI//FLOW: design tokens
+   Fonte única da verdade para cor, tipo, espaço, borda, elevação e motion.
+   Espelhados em src/lib/design/tokens.ts para uso em JS (gráficos, 3D).
+   ========================================================================== */
+
+@theme {
+  /* Cor: superfícies */
+  --color-ink: #0A0A0A;
+  --color-graphite: #171515;
+  --color-graphite-2: #1F1C1C;
+  --color-graphite-3: #2A2626;
+  --color-line: rgb(244 241 241 / 0.09);
+  --color-line-strong: rgb(244 241 241 / 0.18);
+
+  /* Cor: conteúdo */
+  --color-bone: #F4F1F1;
+  --color-mute: #A8A2A2;
+  --color-dim: #928B8B;
+
+  /* Cor: acento e estados */
+  --color-volt: #FF2A3D;
+  --color-volt-ink: #140003;
+  --color-volt-dim: rgb(255 42 61 / 0.14);
+  --color-danger: #FF6B6B;
+  --color-danger-dim: rgb(255 107 107 / 0.14);
+  --color-amber: #ffb547;
+  --color-amber-dim: rgb(255 181 71 / 0.14);
+
+  /* Macronutrientes: 3 primeiros slots validados (CVD all-pairs) na superfície escura */
+  --color-protein: #3987e5;
+  --color-carbs: #199e70;
+  --color-fat: #d95926;
+
+  /* Tipografia */
+  --font-display: var(--font-archivo), "Arial Narrow", sans-serif;
+  --font-sans: var(--font-instrument), ui-sans-serif, system-ui, sans-serif;
+
+  --text-micro: 0.6875rem;
+  --text-micro--line-height: 1rem;
+  --text-micro--letter-spacing: 0.08em;
+
+  /* Bordas: arredondamento contido, consistente */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+
+  /* Elevação */
+  --shadow-lift: 0 1px 0 0 rgb(244 241 241 / 0.04) inset, 0 12px 32px -12px rgb(0 0 0 / 0.6);
+  --shadow-pop: 0 24px 64px -24px rgb(0 0 0 / 0.8), 0 0 0 1px rgb(244 241 241 / 0.08);
+
+  /* Motion */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-quart: cubic-bezier(0.76, 0, 0.24, 1);
+  --duration-fast: 140ms;
+  --duration-base: 240ms;
+  --duration-slow: 520ms;
+
+  --animate-shimmer: shimmer 1.6s linear infinite;
+  --animate-pulse-dot: pulse-dot 2.4s var(--ease-in-out-quart) infinite;
+
+  @keyframes shimmer {
+    from { background-position: -200% 0; }
+    to { background-position: 200% 0; }
+  }
+  @keyframes pulse-dot {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.35; }
+  }
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+  html {
+    background: var(--color-ink);
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-ink);
+    color: var(--color-bone);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--color-volt);
+    color: var(--color-volt-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-volt);
+    outline-offset: 2px;
+  }
+  input, select, textarea, button {
+    font: inherit;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] { -moz-appearance: textfield; }
+  hr { border-color: var(--color-line); }
+}
+
+/* ==========================================================================
+   Componentes primitivos (classes utilitárias de produto)
+   ========================================================================== */
+@layer components {
+  .display {
+    font-family: var(--font-display);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.015em;
+    line-height: 0.88;
+  }
+  /* Archivo condensado: toda aplicação da fonte de display usa o eixo de largura */
+  .display, [class*="--font-display"] { font-stretch: 72%; }
+  .eyebrow {
+    font-size: var(--text-micro);
+    line-height: var(--text-micro--line-height);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-mute);
+    font-weight: 500;
+  }
+  .num {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
+  }
+  .hairline { border-color: var(--color-line); }
+
+  /* Superfície de painel, o "card" do sistema: canto vivo, linha fina */
+  .panel {
+    background: var(--color-graphite);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-sm);
+  }
+  .panel-quiet {
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-sm);
+  }
+
+  /* Campos */
+  .field {
+    width: 100%;
+    background: var(--color-ink);
+    border: 1px solid var(--color-line-strong);
+    border-radius: var(--radius-xs);
+    padding: 0.7rem 0.85rem;
+    color: var(--color-bone);
+    transition: border-color var(--duration-fast) ease, background-color var(--duration-fast) ease;
+  }
+  .field::placeholder { color: var(--color-dim); }
+  .field:hover { border-color: rgb(244 241 241 / 0.3); }
+  .field:focus { outline: none; border-color: var(--color-volt); background: #0D0B0B; }
+  .field[aria-invalid="true"] { border-color: var(--color-danger); }
+
+  /* Botões */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0 1.1rem;
+    border-radius: var(--radius-xs);
+    font-weight: 600;
+    font-size: 0.8125rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    transition: background-color var(--duration-fast) ease, color var(--duration-fast) ease,
+      border-color var(--duration-fast) ease, transform var(--duration-fast) ease, opacity var(--duration-fast) ease;
+    white-space: nowrap;
+    user-select: none;
+  }
+  .btn:active { transform: translateY(1px); }
+  .btn:disabled { opacity: 0.45; pointer-events: none; }
+  .btn-volt { background: var(--color-volt); color: var(--color-volt-ink); }
+  .btn-volt:hover { background: #FF5A68; }
+  .btn-ghost { border: 1px solid var(--color-line-strong); color: var(--color-bone); }
+  .btn-ghost:hover { border-color: var(--color-bone); }
+  .btn-quiet { color: var(--color-mute); padding: 0 0.6rem; }
+  .btn-quiet:hover { color: var(--color-bone); background: var(--color-graphite-2); }
+  .btn-danger { border: 1px solid rgb(255 107 107 / 0.5); color: var(--color-danger); }
+  .btn-danger:hover { background: var(--color-danger-dim); }
+  .btn-sm { min-height: 2.125rem; padding: 0 0.75rem; font-size: 0.75rem; }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    height: 1.5rem;
+    padding: 0 0.5rem;
+    border: 1px solid var(--color-line-strong);
+    border-radius: var(--radius-xs);
+    font-size: 0.6875rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-mute);
+  }
+  .chip-volt { border-color: rgb(255 42 61 / 0.4); color: var(--color-volt); }
+  .chip-amber { border-color: rgb(255 181 71 / 0.45); color: var(--color-amber); }
+  .chip-danger { border-color: rgb(255 107 107 / 0.45); color: var(--color-danger); }
+
+  /* Skeleton com shimmer */
+  .skeleton {
+    background: linear-gradient(90deg, var(--color-graphite) 0%, var(--color-graphite-3) 50%, var(--color-graphite) 100%);
+    background-size: 200% 100%;
+    animation: var(--animate-shimmer);
+    border-radius: var(--radius-xs);
+  }
+
+  /* Spotlight: segue o cursor via --mx/--my (definidos em JS) */
+  .spotlight {
+    position: relative;
+    isolation: isolate;
+  }
+  .spotlight::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 50%), rgb(255 42 61 / 0.10), transparent 45%);
+    opacity: 0;
+    transition: opacity var(--duration-base) ease;
+    pointer-events: none;
+    z-index: -1;
+  }
+  .spotlight:hover::before { opacity: 1; }
+}
+
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
+}
+
+/* ==========================================================================
+   Movimento reduzido: tudo continua utilizável
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Impressão de relatórios */
+@media print {
+  body { background: #fff; color: #000; }
+  .no-print { display: none !important; }
+}
+
+/* Landing: estado inicial da animação de entrada (só com JS e sem movimento reduzido) */
+@keyframes scrollcue {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(330%); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  html.js .hero-pre { visibility: hidden; }
+}
+
+/* Range: trilho fino, polegar quadrado (linguagem de instrumento) */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 24px;
+  background: transparent;
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-runnable-track { height: 2px; background: var(--color-line-strong); }
+input[type="range"]::-moz-range-track { height: 2px; background: var(--color-line-strong); }
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px; height: 22px; margin-top: -10px;
+  background: var(--color-volt); border-radius: 1px;
+}
+input[type="range"]::-moz-range-thumb { width: 14px; height: 22px; background: var(--color-volt); border: 0; border-radius: 1px; }
+
+/* Sheet (dialog): entrada com propósito, indica um novo contexto sobre a página */
+dialog.sheet[open] { animation: sheet-in var(--duration-slow) var(--ease-out-expo); }
+dialog.sheet[open]::backdrop { animation: fade-in var(--duration-base) ease; }
+@keyframes sheet-in { from { transform: translateX(32px); opacity: 0; } to { transform: none; opacity: 1; } }
+@media (max-width: 1023px) {
+  @keyframes sheet-in { from { transform: translateY(40px); opacity: 0; } to { transform: none; opacity: 1; } }
+}
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
